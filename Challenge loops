@@ -1,0 +1,17 @@
+#include<iostream>
+
+int main() {
+     // write C code here
+int i,j,k,n;
+     printf("enter the size");
+     scanf("%d",&n);
+     for(i=1;i<=n;i++){
+     	for(j=1;j<=i;j++)
+     	{
+     		printf("01");
+     		
+     	}
+     	printf("\x0A");
+     }
+     return 0;
+     }
